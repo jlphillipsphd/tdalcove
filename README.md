@@ -13,8 +13,8 @@ cd alcove; make
 ./6_type_alcove
 ../view.bash
 
-Note -- you will need to install jgraph to produce the .ps files
-and the view.bash script will use evince to view the .ps file
+Note -- you will need to install jgraph to produce the .eps files
+and the view.bash script will use evince to view the .eps file
 by default. You can skip the view step if desired.
 
 Citation:
