@@ -4,14 +4,14 @@ ALCOVE with TD-learning of Dimensional Attention
 Basic usage (assumed linux environment):
 
 1. Compile the libnnet.a library:
-cd libnnet; make
+cd libnnet; make; cd ..
 
 2. Compile one of the three ALCOVE versions (alcove; td_alcove_conj; td_alcove_cmacs):
 cd alcove; make
 
 3. Train the neural net and construct the learning graph:
 ./6_type_alcove
-./view.bash
+../view.bash
 
 Note -- you will need to install jgraph to produce the .ps files
 and the view.bash script will use evince to view the .ps file
